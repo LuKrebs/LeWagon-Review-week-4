@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+.profile-header-wrapper {
+  background: #53443F;
+}
+.profile-header-infos {
+  padding: 20px 0;
+}
+.profile-header-infos img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.profile-header-container h1, .profile-header-container h2 {
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  letter-spacing: -1px;
+}
+.profile-header-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.profile-header-container h2 {
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}

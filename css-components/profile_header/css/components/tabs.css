@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.tabs {
+  display: flex;
+  background: #53443F;
+  padding: 10px 10px 0 10px;
+}
+.tab {
+  background: #756A66;
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 15px 0;
+}
+.tabs h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 0;
+  font-family: Raleway, Helvetica, sans-serif;
+}
+.tabs p {
+  opacity: 0.5;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.tab {
+  color: white;
+  text-decoration: none;
+}
+.active {
+  background: white !important;
+  color: black !important;
+}
+.tab:first-child {
+  border-radius: 10px 0 0 0;
+}
+.tab:last-child {
+ border-radius: 0 10px 0 0;
+}
+.tabs a.tab a.active:hover {
+  background: white;
+  color: black !important;
+  opacity: 0.8;
+}
+.tabs a.tab:hover {
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.8;
+  color: white;
+}
